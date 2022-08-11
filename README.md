@@ -11,7 +11,7 @@ Layer adding support to OpenEmbedded/Yocto for Capability Hardware Enhanced RISC
 - Clone meta-clang into the root of your build environment. You can get meta-clang [here](https://github.com/kraj/meta-clang/tree/kirkstone)
 - Follow the steps in the meta-clang README to configure the local.conf files and add meta-clang to to bblayers.conf
 
-## Obtaining CHERI Clang/LLVM and LLD
+### Obtaining CHERI Clang/LLVM and LLD
 
 - Obtain cheribuild: ```git clone https://github.com/CTSRD-CHERI/cheribuild.git```
 
