@@ -1,6 +1,9 @@
 # meta-cheri
 Layer adding support to OpenEmbedded/Yocto for Capability Hardware Enhanced RISC Instructions (CHERI)
 
+Documentation: 
+- [Slideshow Presentations from Digital Catapult](https://drive.google.com/drive/folders/1kwBBKDYdAsYidgQ_4whccufYA_vr6yIr)
+- https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/
 ## Getting Started
 
 ### Container
