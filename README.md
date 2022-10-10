@@ -21,3 +21,12 @@ Documentation:
 - ```cd cheribuild```
 
 - The following command line builds CheriBSD/RISC-V, QEMU-CHERI, and the complete toolchain including tools such as CHERI GDB, and runs the resulting image in QEMU: ```./cheribuild.py --include-dependencies run-riscv64-purecap```
+
+# Morello
+## Obtaining Yocto Build Environment
+- ```mkdir morello_workspace```
+- ```repo init -u https://git.morello-project.org/morello/manifest.git -b morello/release-1.1 -g bsp```
+- ```repo sync```
+- ```cd bsp``` (should now see yocto files)
+- ```MACHINE=morello-fvp DISTRO=poky . ./conf/setup-environment-morello```
+- ```bitbake core-image-minimal```
