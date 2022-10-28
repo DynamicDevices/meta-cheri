@@ -35,3 +35,4 @@ Documentation:
 ## Image -> SD Card
 - Use etcher or similar flash tool to write image to a USB stick
 - Modify bootloader (grub) file which has timeout set to 0
+- IN the same file, edit the boot root FS e.g. SDA/SDA2
