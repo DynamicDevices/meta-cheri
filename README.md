@@ -30,3 +30,8 @@ Documentation:
 - ```cd bsp``` (should now see yocto files)
 - ```MACHINE=morello-fvp DISTRO=poky . ./conf/setup-environment-morello```
 - ```bitbake core-image-minimal```
+
+# Writing image to USB Stick & installing on Morello Hardware (wip)
+## Image -> SD Card
+- Use etcher or similar flash tool to write image to a USB stick
+- Modify bootloader (grub) file which has timeout set to 0
