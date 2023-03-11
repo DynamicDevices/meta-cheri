@@ -1,3 +1,6 @@
+
+**DEPRECATED: FOR CURRENT WORK ON MORELLO CHERI PLEASE GO [HERE](https://git.morello-project.org/morello/meta-morello)**
+
 # meta-cheri
 Layer adding support to OpenEmbedded/Yocto for Capability Hardware Enhanced RISC Instructions (CHERI)
 
